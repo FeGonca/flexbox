@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --border-color: #BF7E78;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E232E;
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin: 5rem;
+}
+
+.destaque{
+    font-weight: 700;
+}
+
+.exemplo{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.descricao{
+    margin-left: 3%;
+    text-align: left;
+}
+
+.bloco{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #BF7E78;
+    border-radius: 5px;
+}
+
+.justify{
+    border-style: dashed;
+    border-width: 1px;
+    padding: 1rem;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px dashed;
+    margin-bottom: 2rem;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 0.5px dashed;
+    margin-bottom: 2rem;    
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 0.5px dashed;
+    margin-bottom: 2rem;    
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dashed;
+    margin-bottom: 2rem;    
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px dashed;
+    margin-bottom: 2rem;    
+}
+
+.space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.5px dashed;
+    margin-bottom: 2rem;    
+}
